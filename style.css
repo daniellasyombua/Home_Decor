@@ -1,0 +1,549 @@
+.body {
+    padding-top: 0;
+    display: block;
+}
+
+.body>p {
+    margin-left: 8cm;
+    margin-top: 5%;
+}
+
+#carra {
+    font-family: carra;
+    padding-right: 3cm;
+    margin-left: 0.5cm;
+    font-size: larger;
+}
+
+@font-face {
+    font-family: carra;
+    src: url(Images/MacondoSwashCaps-Regular.ttf);
+}
+
+.icon-top {
+    margin-left: 22cm;
+    position: absolute;
+    padding: 1cm;
+}
+
+#dot {
+    color: rgb(212, 212, 54);
+    position: absolute;
+    left: 34%;
+    top: 49%;
+}
+
+#user {
+    font-size: 1.5em;
+}
+
+#basket {
+    margin-left: 0.5cm;
+    font-size: 1.5em;
+}
+
+#glass {
+    margin-left: 0.5cm;
+    font-size: 1.5em;
+}
+
+.rectangle {
+    width: 39%;
+    /* Width of the rectangle */
+    height: 12%;
+    /* Height of the rectangle */
+    background-color: rgb(95, 93, 93);
+    /* Color of the rectangle */
+    transform: rotate(55deg);
+    /* No rotation, facing up */
+    position: absolute;
+    right: -7%;
+    top: -3%;
+    border-radius: 0px 0px 0px 70px;
+}
+
+.top {
+    padding-top: 1cm;
+
+}
+
+.top>a {
+    padding-left: 1cm;
+    text-decoration: none;
+    color: black;
+}
+
+.body {
+    cursor: zoom-out;
+    background-color: rgb(230, 199, 230);
+    max-width: 100%;
+}
+
+.entire-container {
+    background-color: white;
+    max-width: 100%;
+    margin-left: 8cm;
+    margin-right: 8cm;
+    padding-left: 1.5cm;
+    padding-right: 1.5cm;
+    margin-bottom: 3cm;
+    margin-top: 1cm;
+    border: solid black;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(255, 252, 252);
+}
+
+.ele-container {
+    display: flex;
+    padding-top: 3cm;
+    background-color: white;
+
+}
+
+.elevate-div {
+    padding-bottom: .4cm;
+    padding-left: 1.5cm;
+    height: 100%;
+    width: 50%;
+}
+
+#homeborder {
+    border: dashed grey;
+}
+
+.elevate-img {
+    padding-left: 0.4cm;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+#startbtn {
+    width: 4cm;
+    height: 2cm;
+    border-radius: 10cm;
+    background-color: rgb(58, 54, 54);
+    color: white;
+    font-size: 90%;
+    border: none;
+}
+
+#vid {
+    margin-left: 1cm;
+    font-weight: 600;
+}
+
+#video {
+    margin-left: 0.5cm;
+    padding: 2.5%;
+    border: 1px solid rgb(204, 195, 195);
+    background-color: rgb(228, 220, 220);
+    border-radius: 5px;
+}
+
+#ele-heading {
+    font-size: 350%;
+}
+
+#ele-button {
+    width: 30%;
+    border: 1px dotted;
+}
+
+#ele-img {
+    border-radius: 10px;
+    width: 14cm;
+    height: 12.5cm;
+    background-color: rgb(241, 230, 230);
+}
+
+.stats {
+    display: flex;
+    font-size: xx-large;
+    padding-top: 1cm;
+    background-color: white;
+
+}
+
+.state {
+    display: flex;
+    background-color: white;
+
+}
+
+#newcol {
+    margin-left: 2.5cm;
+}
+
+#insp {
+    margin-left: 3cm;
+}
+
+#collection {
+    margin-left: 1.5cm;
+}
+
+#decor {
+    margin-left: 1.5cm;
+}
+
+.logo {
+    max-width: 100%;
+    display: flex;
+    margin-top: 2cm;
+    background-color: white;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    padding-left: 1cm;
+}
+
+#ikea {
+    font-size: xx-large;
+    font-family: "Chango";
+    opacity: 50%;
+}
+
+#diptyque {
+    margin-left: 2cm;
+    font-size: xx-large;
+    opacity: 50%;
+}
+
+#desenio {
+    margin-left: 2cm;
+    font-size: xx-large;
+    font-family: "Comfortaa";
+    opacity: 50%;
+}
+
+#benuta {
+    margin-left: 2cm;
+    font-size: xx-large;
+    font-family: "Mitr";
+    opacity: 50%;
+}
+
+#westwinc {
+    margin-left: 2cm;
+    font-size: xx-large;
+    font-family: "Libre Caslon Display";
+    opacity: 50%;
+}
+
+.seller {
+    display: flex;
+    margin-top: 2cm;
+    font-size: larger;
+    background-color: white;
+    padding-left: 1cm;
+}
+
+.next {
+    margin-left: 24cm;
+
+}
+
+#grey-btn {
+    color: grey;
+}
+
+.vases {
+    max-width: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.listing {
+    margin-top: 1.5cm;
+    position: absolute;
+}
+
+#new {
+    color: red;
+
+}
+
+#num {
+    margin-left: 2cm;
+
+}
+
+#shieldvase {
+    width: 90%;
+    padding-top: 1.4cm;
+
+}
+
+.shield-div {
+
+    margin-right: 1cm;
+    padding-left: 1cm;
+}
+
+#uniquevase {
+    width: 53%;
+    padding-bottom: 0.3cm;
+
+}
+
+.unique-div {
+    width: 100%;
+    margin-right: 1cm;
+    padding-left: 2cm;
+    padding-top: 1.5cm;
+
+}
+
+#fishvase {
+    width: 95%;
+    padding-right: 1cm;
+}
+
+.fish-div {
+    padding-right: 2cm;
+    padding-left: 1cm;
+    padding-top: 1.5cm;
+
+}
+
+#shinyvase {
+    width: 80%;
+    padding-top: 2.3cm;
+    padding-bottom: 0.6cm;
+}
+
+.shiny-div {
+    margin-left: 1cm;
+    padding-left: 1cm;
+
+}
+
+#shopbtn {
+    width: 4cm;
+    height: 2cm;
+    border-radius: 10cm;
+    background-color: white;
+    color: black;
+    font-size: 90%;
+    border: 1px solid black;
+}
+
+#restyle-heading {
+    font-size: 230%;
+    text-align: center;
+    margin-top: 2.5cm;
+
+}
+
+.trendy-container {
+    display: flex;
+    width: 100%;
+}
+
+#trendy-img {
+    border-radius: 10px;
+    width: 14cm;
+    height: 12.5cm;
+    background-color: rgb(241, 230, 230);
+}
+
+#trendy-heading {
+    font-size: 350%;
+}
+
+.trendy-div {
+    padding-bottom: .4cm;
+    padding-left: 1cm;
+    height: 100%;
+    width: 50%;
+}
+
+#feel {
+    text-align: center;
+}
+
+.stylish-container {
+    display: flex;
+    width: 100%;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+}
+
+.style-img {
+    border-radius: 10px;
+    width: 14cm;
+    height: 12.5cm;
+    background-color: rgb(241, 230, 230);
+}
+
+.stylish-div {
+    padding-bottom: .4cm;
+    padding-left: 1cm;
+    height: 100%;
+    width: 50%;
+}
+
+#sty-img {
+    border-radius: 10px;
+    width: 14cm;
+    height: 12.5cm;
+    padding-right: 0cm;
+}
+
+#sty-heading {
+    font-size: 350%;
+}
+
+#what-heading {
+    font-size: 230%;
+    text-align: center;
+}
+
+#site {
+    text-align: center;
+}
+
+.picture-info {
+    display: flex;
+    font-size: 110%;
+}
+
+.picture-word {
+    margin-top: 0.2cm;
+}
+
+.pictures {
+    display: flex;
+    max-width: 100%;
+    margin-top: 2cm;
+}
+
+#vase-icon {
+    width: 31%;
+    padding: 0.5cm;
+    border-radius: 10%;
+}
+
+#guarantee {
+    width: 35%;
+    padding: 0.5cm;
+    border-radius: 10%;
+}
+
+#gift {
+    width: 30%;
+    padding: 0.5cm;
+    border-radius: 10%; 
+}
+
+#order-icon {
+    width: 30%;
+    padding: 0.5cm;
+    border-radius: 10%;
+}
+
+#pieces {
+    margin-left: 0.6cm;
+}
+.vase-div{
+    text-align: center;
+}
+.guarantee-div{
+    text-align: center;
+}
+.gift-div{
+    text-align: center;
+}
+.order-div{
+    text-align: center;
+}
+#refund {
+    margin-left: 3.2cm;
+}
+
+#contain {
+    margin-left: 5.5cm;
+}
+
+#track {
+    margin-left: 3.9cm
+}
+
+.picture-words {
+    display: flex;
+    text-align: center;
+}
+
+.reviews {
+    text-align: center;
+    margin-top: 3cm;
+}
+
+#reviews-heading {
+    font-size: 230%;
+    text-align: center;
+}
+
+.arther-Q {
+    display: flex;
+    margin-top: 3cm;
+
+}
+
+#heart-vase {
+    border-radius: 10px;
+    width: 14cm;
+    height: 12.5cm;
+    background-color: rgb(241, 230, 230);
+}
+
+.quote {
+    padding-top: 1cm;
+    padding-left: 2cm;
+    width: 50%;
+    max-height: 24cm;
+    font-size: larger;
+}
+
+#arrow {
+    margin-left: 10cm;
+    height: 10em;
+
+}
+
+.about {
+    margin-top: 1cm;
+    display: flex;
+    padding-top: 2cm;
+    padding-left: 1cm;
+    padding-bottom: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+#copyright {}
+
+.do {
+    margin-left: 3.8cm;
+}
+
+.social {
+    margin-left: 3.5cm;
+}
+
+.profile {
+    margin-left: 3.5cm;
+}
+
+@media (max-width: 768px) {
+
+    /* Styles to apply when the screen width is 768px or less */
+    body {
+        font-size: 14px;
+        background-color: rgb(8, 7, 7);
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+}
